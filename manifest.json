@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github Points",
+  "description": "Sum over github points on the page",
+  "version": "0.1",
+
+  "permissions": [
+      "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["css/points.css"],
+      "js": ["build/points.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "icons": {
+    "16": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  }
+}

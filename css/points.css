@@ -1,0 +1,9 @@
+#points-status {
+  position: relative;
+  display: inline-block;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: rgba(239, 72, 54, 0.9);
+  width: 60px;
+  height: 100%;
+}
