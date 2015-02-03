@@ -18,8 +18,7 @@
       if (!$status.length) {
         $left.append("<div id='points-status'>" + total + " pts</div>");
       } else {
-        alert("reusing status?!!");
-        $status.text(total + " pts");
+        $status.text(total + " pts"); //user hits back button
       }
     }
   };
