@@ -2,7 +2,7 @@
   'use strict'
   var _prevUrl = null;
   var updatePoints = function(url) {
-    var issuesMatch = url.match(/issues/g);
+    var issuesMatch = url.match(/issues|milestones/g);
     var $toolbar = $('#js-issues-toolbar');
     if (issuesMatch && $toolbar.length) {
       var total = 0;
