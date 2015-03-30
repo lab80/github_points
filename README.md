@@ -1,6 +1,8 @@
 Github Points
 ===========
 
+![Screenshot of github_points](img/screenshot.png)
+
 Sum up points tags on github issues page
  - By default assign N points to an issue (N = configurable)
  - Match a regex to label points for an issue (regex is configurable)
